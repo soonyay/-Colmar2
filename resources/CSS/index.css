@@ -453,21 +453,22 @@ body{
 .news-events .container{
   display: flex;
   flex-direction: column;
-  width: 375px;
+  width: 100%;
 }
 
 .ne-left{
   background-color: #fff;
-  width: 375px;
+  width: inherit;
   height: auto;
   padding: 1rem;
   flex: 1;
+  border-right: 0;
 }
 
 .news-events{
   background-color: #fff;
   height: auto;
-  width: 375px;
+  width: 100%;
 }
 
 .ne-right{
@@ -476,7 +477,7 @@ body{
   height: auto;
   padding-left: 1rem;
   flex: 1;
-  width: 375px;
+  width: 100%;
 }
 
 .ne-right h1{
