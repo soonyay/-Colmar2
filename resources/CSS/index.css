@@ -89,6 +89,10 @@ h1{
    padding-left: 1rem;
  }
 
+ .header-m{
+   display: none;
+ }
+
 
 
 /** Hero ------------------------------ */
@@ -385,12 +389,23 @@ body{
   background-color: #FFF;
 }
 
-.branding {
-  padding-left: .3rem;
+.header{
+  display: none;
 }
 
-.header h1{
-  display: none;
+.header-m{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 0rem;
+  align-items: center;
+  margin: 2rem;
+}
+
+.branding img{
+  display: inline-flex;
+  flex: 1;
+  height: 2rem;
 }
 
 .container{
