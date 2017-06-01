@@ -400,6 +400,7 @@ body{
   height: 0rem;
   align-items: center;
   margin: 2rem;
+  width: 375px;
 }
 
 .branding img{
