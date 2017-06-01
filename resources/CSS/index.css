@@ -443,10 +443,10 @@ body{
   width: 375px;
 }
 
-.branding img{
+.header-m img{
   display: inline-flex;
   flex: 1;
-  height: 2rem;
+  height: 2.5rem;
 }
 
 .container{
@@ -523,9 +523,6 @@ body{
   width: 100%;
 }
 
-.ne-right h1{
-}
-
 .ne-right p{
   font-size: 1rem;
   font-family: 'Rubik', sans-serif;
@@ -554,6 +551,30 @@ body{
 
 .tracks .container{
   width: 425px;
+}
+
+.footer .container{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  justify-content: space-between;
+  border-top: 1px solid rgba(15, 22, 38, .2);
+  padding-top: 1rem;
+  width: 393px;
+}
+
+.footer-l{
+  margin-left: 1rem;
+  text-align: left;
+  flex: 1;
+}
+
+.footer-r{
+  margin-right: 1rem;
+  text-align: right;
+  flex: 1;
 }
 
 }
